@@ -17,8 +17,8 @@
 
 .container {
     max-width: 1320px;
+    margin: auto;
     padding: 2%;
-    height: 100vh;
 }
 
 .banner{
@@ -36,6 +36,7 @@
 }
 .banner-title {
     font-size: 60px;
+    line-height: normal;
     color: #ffff;
 }
 
@@ -68,7 +69,7 @@
 
 /* sidebar style start */
 
-.sidebar-container{
+.container-2{
     display: flex;
     width: 100%;
 }
@@ -115,7 +116,7 @@
 /* blog-container style start */
 .blog-container{
     width: 100%;
-    height: auto;
+    margin-bottom: 5%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 2%;
@@ -123,7 +124,7 @@
 .blog{
     padding: 3%;
     border-radius: 10px;
-    box-shadow: 0px 5px 13px rgb(0 0 0 / 15%)
+    box-shadow: 0px 5px 13px rgb(0 0 0 / 15%);
 }
 .blog-banner> img {
     width: 100%;
@@ -150,6 +151,7 @@
 
 .footer-container{
     max-width: 1320px;
+    margin: auto;
     background-color: #161616;
 }
 
@@ -178,3 +180,37 @@
 }
 
 /* footer style start */
+
+
+/* upcoming.html style */
+ .match-container{
+    width: 100%;
+    margin-bottom: 5%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 3%;
+    grid-row-gap:8%;
+ }
+
+ .match{
+    padding: 5%;
+    border-radius: 10px;
+    box-shadow: 0px 5px 13px rgb(0 0 0 / 15%)
+ }
+ .match:hover{
+    border: 1px solid salmon;
+ }
+ .match-banner{
+    margin: 10% 2%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+ }
+ 
+ .match-detail> h3{
+    text-align: center;
+ }
+ .match-detail> p{
+    text-align: center;
+    color: #4D4D4D ;
+ }
