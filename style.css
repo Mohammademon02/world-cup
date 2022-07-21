@@ -166,7 +166,6 @@
     margin: 3% 3%;
 }
 .extra-btn> a{
-    display: none;
     text-decoration: none;
     text-align: center;
     margin: 0 auto;
@@ -270,10 +269,14 @@
     }
     .banner{
         flex-direction: column;
-    
     }
     .banner-left, .banner-right {
         width: 100%;
+    }
+    .banner-animation{
+        font-size: 20px;
+        padding-top: 20px;
+
     }
     .banner-title{
         font-size: 40px;
@@ -282,12 +285,21 @@
         flex-direction: column;
     }
     .sidebar{
-        width: 100%;
+        width: 70%;
         background-color: white;
+        margin: auto;
     }
     .blog-container{
         width: 100%;
         grid-template-columns: repeat(1, 1fr);
+    }
+    .footer-container{
+        margin-top: 250px;
+        flex-direction: column;
+    }
+    .footer-detail{
+        flex-direction: column;
+        align-items: center;
     }
 
 } 
@@ -295,5 +307,43 @@
  /* media query style for mobile end */
 
  @media only screen and (min-width:577px) and (max-width:768px) {
-    
+    .container{
+        max-width: 768px;
+    }
+    .banner{
+        width: 100%;
+    }
+    .banner-left{
+        padding-left: 3%;
+    }
+    .banner-animation{
+        font-size: 20px;
+    }
+    .banner-title{
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    .container-2{
+        flex-direction: column;
+    }
+    .sidebar{
+        width: 100%;
+        height: auto;
+        background-color: white; 
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .blog-container{
+        grid-template-columns: repeat(2, 1fr);
+        margin: auto;
+    }
+    .extra-btn{
+        display: block ;
+        margin-top: 50px;
+    }
+    .footer-container{
+        margin-top: 100px;
+    }
+
  }
