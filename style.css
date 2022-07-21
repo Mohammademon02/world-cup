@@ -166,6 +166,7 @@
     margin: 3% 3%;
 }
 .extra-btn> a{
+    display: none;
     text-decoration: none;
     text-align: center;
     margin: 0 auto;
@@ -204,7 +205,8 @@
     color: #B9B9B9;
 }
 .footer-detail> a:hover{
-    font-size: 18px;
+    color: white;
+    font-weight: 700;
 }
 
 .social{
@@ -212,16 +214,16 @@
     text-align: center;
 }
 .fa-facebook-square{
-    padding: 1%;
+    margin: 1%;
     font-size: 40px;
 }
 .fa-linkedin{
     font-size: 40px;
-    padding: 1%;
+    margin: 1%;
 }
 .fa-youtube{
     font-size: 40px;
-    padding: 1%;
+    margin: 1%;
 }
 /* footer style end */
 
