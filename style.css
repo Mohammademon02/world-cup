@@ -18,7 +18,6 @@
     max-width: 1320px;
     margin: auto;
     padding: 2%;
-    overflow: hidden;
 }
 
 .banner{
@@ -36,7 +35,6 @@
 .banner-left h2{
     color: #DD0000;
     overflow: hidden;
-    border-right: 0.15em solid white;
     white-space: nowrap;
     margin: 0 auto;
     letter-spacing: 0.18em;
@@ -48,12 +46,6 @@
     from { width: 0 }
     to { width: 100% }
 }
-
-@keyframes blink-caret {
-    from, to { border-color: transparent }
-    50% { border-color: orange; }
-  }
-
 
 .banner-title {
     font-size: 60px;
@@ -219,15 +211,15 @@
     width: 100%;
     text-align: center;
 }
-.fa-facebook-square{
+.social> .fa-facebook-square{
     padding: 1%;
     font-size: 40px;
 }
-.fa-linkedin{
+.social> .fa-linkedin{
     font-size: 40px;
     padding: 1%;
 }
-.fa-youtube{
+.social> .fa-youtube{
     font-size: 40px;
     padding: 1%;
 }
@@ -271,7 +263,7 @@
 
  /* media query style for mobile start */
 @media only screen and (max-width:576px) {
-    .container,{
+    .container{
         max-width: 576px;
     }
     .banner{
@@ -295,7 +287,7 @@
         width: 100%;
         grid-template-columns: repeat(1, 1fr);
     }
-    
+
 } 
 
  /* media query style for mobile end */
