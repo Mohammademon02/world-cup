@@ -303,9 +303,9 @@
     }
 
 } 
-
  /* media query style for mobile end */
 
+ /* media query style for mobile start */
  @media only screen and (min-width:577px) and (max-width:768px) {
     .container{
         max-width: 768px;
@@ -345,5 +345,6 @@
     .footer-container{
         margin-top: 100px;
     }
-
  }
+
+ /* media query style for mobile end */
